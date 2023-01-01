@@ -17,3 +17,13 @@ var splide = new Splide('.splide', {
     },
 });
 splide.mount();
+//Time Set
+let interval;
+function setValuByID() {
+    const date = new Date();
+    document.getElementById('liveClock').innerHTML = date.toLocaleTimeString();
+}
+function getTime() {
+    interval = setInterval(setValuByID, 1000);// function to Avoid recursion
+}
+getTime()
