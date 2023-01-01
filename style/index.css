@@ -1,0 +1,88 @@
+body{
+    background-color: #f2eeee;
+}
+/* Global Centralized Container */
+.container{
+    width: 70%;
+    padding: 0px;
+    text-align: center;
+    display: inline-block;
+}
+@media(max-width: 900px){
+    .container{
+        width: 90%;
+    }
+}
+/*____________________________________ NavBar______________________________________ */
+/*row1 nav-adv */
+.nav-adv{
+    background-color: #ff9900;
+}
+/*row2 nav-Seller-Lang */
+.nav-Seller-Lang a{
+    text-decoration: none;
+    color: #ff9900;
+    font-size: 15px;
+    
+}
+@media(max-width: 900px){
+    .nav-Seller-Lang a{
+        font-size: 10px;
+    }
+}
+/*row2 nav-Seller-Pay */
+.nav-Seller-Lang a  img{
+    width: 20px;
+}
+.nav-Seller-Lang .pay img{
+    width: 20px;
+}
+.nav-Seller-Lang .pay span{
+    font-family: Impact, Charcoal, sans-serif;
+    color: gray;
+}
+/*row2 nav-Seller-Lan */
+.nav-Seller-Lang .lang img{
+    border-radius: 10px;
+    width: 20px;
+}
+.nav-Seller-Lang .lang span:first-child{
+color: gray;
+}
+.nav-Seller-Lang .lang #line{
+    color: gray;
+}
+/*row3 Main NavBar */
+.navbar{
+    width: 100%;
+}
+.searchIcon{
+    color: gray;
+    background-color:white;
+}
+.searchbar{
+    border-left: none;
+}
+.searchButton{
+    background-color: #ff9900;
+    color: white;
+    border-radius: 2px;
+    filter: drop-shadow(0 0 0.1rem black);
+}
+.searchButton:hover{
+    background-color: #c77802;
+    color: white;
+}
+.coloreMain:hover{
+    color: #e68c06;
+}
+.loginBtn{
+    width: 100%;
+    padding: 2px 60px;
+    margin-top: 5px;
+    margin-bottom: 8px;
+}
+.DropDownFirstChildLineAfter li:first-child {
+    border-bottom:1px solid gray;
+}
+
