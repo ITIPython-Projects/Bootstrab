@@ -13,7 +13,7 @@ body{
         width: 90%;
     }
 }
-/*____________________________________ NavBar______________________________________ */
+/*____________________________________||NavBar||______________________________________ */
 /*row1 nav-adv */
 .nav-adv{
     background-color: #ff9900;
@@ -39,7 +39,10 @@ body{
 }
 .nav-Seller-Lang .pay span{
     font-family: Impact, Charcoal, sans-serif;
-    color: gray;
+    color: rgb(196, 196, 196);
+}
+.nav-Seller-Lang .pay span:hover{
+    color: #e68c06;
 }
 /*row2 nav-Seller-Lan */
 .nav-Seller-Lang .lang img{
@@ -85,4 +88,26 @@ color: gray;
 .DropDownFirstChildLineAfter li:first-child {
     border-bottom:1px solid gray;
 }
+/*____________________________________||Content||____________________________________ */
+/* Row1-categories-Slider */
+.categories{
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    text-align: left;
+}
+.categoriesItem{
+    padding: 5px 8px;
+    width: 100%;
+}
+/* Slider */
+.slider img{
+    width: 100%;
+}
+.sid-Image div{
+    height: 50%;
+}
 
+.sid-Image div img{
+    height: 100%;
+}
