@@ -115,3 +115,10 @@ color: gray;
 .sid-Image div img{
     height: 100%;
 }
+/* SingleSlider */
+.splide__slide img{
+    width: 100%;
+}
+.PaginationPading{
+    margin: 50px;
+}
