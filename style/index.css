@@ -13,6 +13,21 @@ body{
         width: 90%;
     }
 }
+.whitBackground{
+    background-color: white;
+    padding: 10px 0px;
+}
+.badgeGold{
+    color: #f8ab5b;
+    background-color: #fef3e9;
+    /* position: relative;
+    z-index: 50;
+    right: 0;
+    bottom:  0; */
+}
+.recCard{
+    /* position: absolute; */
+}
 /*____________________________________||NavBar||______________________________________ */
 /*row1 nav-adv */
 .nav-adv{
@@ -114,4 +129,34 @@ color: gray;
 
 .sid-Image div img{
     height: 100%;
+}
+/* SingleSlider */
+.splide__slide img{
+    width: 100%;
+}
+/* Recommended For U */
+.recCard{
+    width: fit-content;
+}
+.recImage{
+    width: fit-content;
+}
+.recCard img{
+    width: 80%;
+}
+.recCard p{
+    margin: 0;
+}
+.recCard h4{
+    margin: 0;
+}
+.card p:last-child{
+    text-decoration: line-through;
+    color: rgb(196, 196, 196);
+}
+.card{
+    display: inline-block;
+    width: 30%;
+    border: none;
+    padding:0px 20px;
 }
