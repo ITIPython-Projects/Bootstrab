@@ -28,6 +28,9 @@ body{
 .recCard{
     /* position: absolute; */
 }
+.redBackground{
+    background-color: #E61601;
+}
 /*____________________________________||NavBar||______________________________________ */
 /*row1 nav-adv */
 .nav-adv{
@@ -159,4 +162,29 @@ color: gray;
     width: 30%;
     border: none;
     padding:0px 20px;
+}
+/* flashSale */
+.flashSale i{
+    margin-right: 3px;
+    color: #e68c06;
+}
+.flashSale{
+    font-size: 20px;
+    color: white;
+}
+@media(max-width: 900px){
+    .flashSale{
+        font-size: 8px;
+    }
+}
+.flashSale div:last-child{
+    font-size:15px;
+}
+@media(max-width: 900px){
+    .flashSale div:last-child{
+        font-size: 8px;
+    }
+}
+#liveClock{
+    margin-left: 5px;
 }
