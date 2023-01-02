@@ -1,6 +1,4 @@
 # Bootstrab
-Trying to Simulate Noon(Online Shopping Website) Website
-# Bootstrab
 Using HTML,CSS(Bootstrab) and jsto Simulate Noon(Online Shopping Website) Website.
 >*Layout:*
 -  Website is divided into Advertising nav,Main NaveBare and page Content
